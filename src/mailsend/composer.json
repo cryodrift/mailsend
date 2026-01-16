@@ -1,0 +1,22 @@
+{
+  "name": "cryodrift/mailsend",
+  "description": "Mime Message creation and smtp sending",
+  "type": "library",
+  "license": "MIT",
+  "version": "0.1.0",
+  "require": {
+    "php": ">=8.4",
+    "cryodrift/fw": "^0.1.0",
+    "cryodrift/user": "^0.1.0"
+  },
+  "authors": [
+    {
+      "name": "chrisg"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "cryodrift\\mailsend\\": ""
+    }
+  }
+}
